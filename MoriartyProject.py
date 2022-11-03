@@ -336,5 +336,6 @@ def socialMedia5():
             continue  
 if __name__ == "__main__":
     import subprocess
-    app.run(str(subprocess.check_output("hostname -I | awk '{print $1}'",shell=True).decode().strip()),8080,debug=True)
+   #app.run(str(subprocess.check_output("hostname -I | awk '{print $1}'",shell=True).decode().strip()),8080,debug=True)
+    app.run("0.0.0.0",8080,debug=True)
     
