@@ -1,16 +1,17 @@
 <p align="center" width="100%">
-    <img width="19%" src="https://i.ibb.co/bvKNrwx/t5179.png">
+    <img width="17%" src="https://i.ibb.co/bvKNrwx/t5179.png">
+    <img width="25%" src="banners/ManuelBot.png">
 </p>
 <h2 align="center" width="100%">Moriarty Project Remastered V4.1.2.</h2>
-
-![](banners/gif.gif)
+<h3 align="center" width="100%"> modified for [Manuel Bot] to run in Google Cloud Shell Editor</h3>
+<img width="100%" src="banners/gif.gif">
 
 ### Documentation Page
 
 <a href="https://azizkpln.github.io/moriartyproject/" target="_blank">https://azizkpln.github.io/moriartyproject/</a>
 
 ### About
-Moriarty Project is a powerful web based phone number investigation tool. It has 6 features and it allows you to choose either all features, or the features you like. You can visit documentation page to learn more about features.
+Moriarty Project is a powerful web based phone number investigation tool. It has 6 features and it allows you to choose either all features, or the features you like. You can visit documentation page to learn more about features. As additional information, this project has been modified from the original, to be used in the Google Cloud Shell Editor.
 
 ### Situation
 Social Media Stuck Issue Fixed.
@@ -39,25 +40,28 @@ Social Media Stuck Issue Fixed.
 
 ### Installation
 ````
-sudo apt install git -y
+Go to google cloud shell editor:
+https://console.cloud.google.com/getting-started?pli=1&cloudshell=true
 
-git clone https://github.com/AzizKpln/Moriarty-Project
+Clone to repository: 
+git clone https://github.com/ManuelBot/Moriarty-Project
 
+Go to folder and install:
 cd Moriarty-Project/ && bash install.sh
 
+Run the following code:
 bash run.sh
 ````
 
-### Question And Answers
-![](https://i.ibb.co/26ycxZb/Capture.png)
-
-### Tutorial Videos
-* I'll share here if you send me a video about moriarty
-
-<h1 align="center" width="100%">Donations</h1>
+### Note: 
+The original project was developed by [Aziz Kaplan](https://github.com/AzizKpln/) and runs perfectly in the Kali Linux environment, but edited by [Manuel Bot](https://twitter.com/ManuelBot59), to be run in Google's Shell Code Editor console.
+ 
 <p align="center" width="100%">
-    <img width="19%" src="https://i.ibb.co/HXmPjDm/heart3.png">
+    <img width="25%" src="banners/google-cloud-logo.png">
 </p>
-<h3 align="center">🙌 Use donations to support this project 🙌</h3>
-<h5 align="center">BTC - 17qHWGUnP5FSpMsqLiJxz3xkbLWC3y33MB</h5>
-<h5 align="center">ETH - 0x7f734c0834cdf1abf744e34912c6d4dfdffceb57</h5>
+
+### Follow me:
+[Manuel Bot](https://linktr.ee/manuelbot59)
+
+### Coming soon:
+soon video tutorial on my Twitter account: [Manuel Bot](https://twitter.com/ManuelBot59)
