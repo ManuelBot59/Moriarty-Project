@@ -2,8 +2,11 @@
     <img width="17%" src="https://i.ibb.co/bvKNrwx/t5179.png">
     <img width="25%" src="banners/ManuelBot.png">
 </p>
-<h2 align="center" width="100%">Moriarty Project Remastered V4.1.2.</h2>
-<h3 align="center" width="100%"> modified for [Manuel Bot] to run in Google Cloud Shell Editor</h3>
+<h2 align="center" width="100%">Moriarty Project Remastered v4.1.2.</h2>
+<h3 align="center" width="100%"> Modified for [Manuel Bot] to run in Google Cloud Shell Editor</h3>
+<p align="center" width="100%">
+    <img width="25%" src="banners/google-cloud-logo.png">
+</p>
 <img width="100%" src="banners/gif.gif">
 
 ### Documentation Page
