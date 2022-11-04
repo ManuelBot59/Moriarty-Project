@@ -56,6 +56,39 @@ Run the following code:
 bash run.sh
 ````
 
+### Use
+````
+Adding A Phone Number:
+add PhoneNumber +{country_code}{phone_number} 
+Example: add PhoneNumber +51XXXXXXXXXXX
+
+Adding Features: 
+add feature {feature_name}
+
+All Features:
+add feature *
+
+Others: 
+Use this feature to add all the features.
+add feature FindOwner
+
+Use this feature to find the owner of the phone number.
+add feature SpamRisk
+
+Use this feature to learn about spam risk.
+add feature GetLinks
+
+Use this feature to get links related with the given phone number.
+add feature SocialMedia
+
+Use this feature to learn about the social media platforms connected with the given phone number.
+add feature GetComments
+
+Use this feature to get comments related with the given phone number.
+
+You can use the below command to see the added features:
+show options
+````
 ### Note: 
 The original project was developed by [Aziz Kaplan](https://github.com/AzizKpln/) and runs perfectly in the Kali Linux environment, but edited by [Manuel Bot](https://twitter.com/ManuelBot59), to be run in Google's Shell Code Editor console.
  
