@@ -43,6 +43,10 @@ Social Media Stuck Issue Fixed.
 
 ### Installation
 ````
+
+Run all updates (Opcional):
+sudo apt update && sudo apt full-upgrade -y 
+
 Go to google cloud shell editor:
 https://console.cloud.google.com/getting-started?pli=1&cloudshell=true
 
