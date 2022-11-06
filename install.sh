@@ -1,18 +1,17 @@
-lightblue=`tput setaf 14` 
-green=`tput setaf 46`     
-RED=`tput setaf 196`      
-yellow=`tput setaf 11`    
-purple=`tput setaf 129`   
-reset=`tput sgr0` 
-clear
-if [ $(whoami) != "root" ];then
-    sudo apt install python3 -y && sudo apt install python3-pip -y
-    pip3 install -r requirements.txt
-    python3 -m playwright install
-    sudo apt purge chromium
-    sudo apt install chromium
-    echo -e "${lightblue}[+]${green} Installation is finished. You can run 'bash run.sh' file now."
+RED='\e[0;31m'     # Red
+export RED
+GREEN='\e[0;32m'   # Green
+export GREEN
+BLUE='\e[0;34m'    # Blue
+export BLUE
+NC='\e[m'          # Color Reset
+export NC
+
+if [ "$UID" == 0 ]; then
+    bash -c "python -m pip install -r requirements.txt"
+    bash -c "python -m playwright install"
+    echo -e "${BLUE}[+]${GREEN} Installation is finished. You can run 'run.sh' file now.${NC}"
 else
-    echo -e "${RED}[-]Don't use Moriarty Project with root. \n[!]You have to use it with a normal account"
+    echo -e "${RED}[-]Install Error, Check if you have the latest python and pip installed, then run this install file again with sudo${NC}"
     exit
 fi
