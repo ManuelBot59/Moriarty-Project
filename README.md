@@ -44,7 +44,7 @@ Social Media Stuck Issue Fixed.
 ### Installation
 ````
 
-Run all updates (Opcional):
+Run all updates of system (Opcional):
 sudo apt update && sudo apt full-upgrade -y 
 
 Go to google cloud shell editor:
@@ -54,10 +54,11 @@ Clone to repository:
 git clone https://github.com/ManuelBot/Moriarty-Project
 
 Go to folder and install:
-cd Moriarty-Project/ && bash install.sh
+cd Moriarty-Project/ && sudo bash install.sh
 
 Run the following code:
 bash run.sh
+
 ````
 
 ### Use
