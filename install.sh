@@ -10,7 +10,7 @@ export NC
 if [ "$UID" == 0 ]; then
     bash -c "python -m pip install -r requirements.txt"
     bash -c "python -m playwright install"
-    echo -e "${BLUE}[+]${GREEN} Installation is finished. You can run 'run.sh' file now.${NC}"
+    echo -e "${BLUE}[+]${GREEN} Installation is finished. You can run 'bash run.sh' file now.${NC}"
 else
     echo -e "${RED}[-]Install Error, Check if you have the latest python and pip installed, then run this install file again with sudo${NC}"
     exit
